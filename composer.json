@@ -1,0 +1,29 @@
+{
+    "name": "arif/laravel-unique-slug",
+    "description": "A laravel unique slug generator",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arif\\LaravelSlugGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ariful Islam Arif",
+            "email": "devboyarif@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arif\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Arif\\LaravelUniqueSlug\\UniqueSlug"
+            }
+        }
+    }
+}
