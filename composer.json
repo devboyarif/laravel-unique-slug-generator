@@ -1,6 +1,6 @@
 {
     "name": "arif/laravel-unique-slug",
-    "description": "A laravel unique slug generator",
+    "description": "A simple unique slug generator for the Laravel applications",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
