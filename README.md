@@ -17,7 +17,7 @@ In `config/app.php`, add in `providers` array -
 ```php
 'providers' => [
     // ...
-    Arif\LaravelUniqueSlug\UniqueSlugServiceProvider::class,
+    Devboyarif\LaravelUniqueSlug\UniqueSlugServiceProvider::class,
     // ...
 ],
 ```
@@ -27,7 +27,7 @@ Add in aliases array -
 ```php
 'aliases' => Facade::defaultAliases()->merge([
     // ...
-    'UniqueSlug' => Arif\LaravelUniqueSlug\Facades\UniqueSlug::class,
+    'UniqueSlug' => Devboyarif\LaravelUniqueSlug\Facades\UniqueSlug::class,
     // ...
 ])->toArray(),
 ```
@@ -36,7 +36,7 @@ Add in aliases array -
 
 #### Import first the UniqueSlug facade
 ```php
-use Arif\LaravelUniqueSlug\Facades\UniqueSlug;
+use Devboyarif\LaravelUniqueSlug\Facades\UniqueSlug;
 ```
 ### Example #01- Post unique slug from title
 
@@ -115,7 +115,7 @@ public function generate(
 
 #### Publish configuration
 ```sh
-php artisan vendor:publish arif/laravel-unique-slug
+php artisan vendor:publish devboyarif/laravel-unique-slug
 ```
 
 #### Configurations

@@ -1,6 +1,6 @@
 <?php
 
-namespace Arif\LaravelUniqueSlug;
+namespace Devboyarif\LaravelUniqueSlug;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class UniqueSlugServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('laravel-unique-slug', function ($app) {
-            return new \Arif\LaravelUniqueSlug\UniqueSlug();
+            return new \Devboyarif\LaravelUniqueSlug\UniqueSlug();
         });
 
         $this->mergeConfigFrom(

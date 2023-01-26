@@ -1,6 +1,6 @@
 <?php
 
-namespace Arif\LaravelUniqueSlug;
+namespace Devboyarif\LaravelUniqueSlug;
 
 class UniqueSlug
 {

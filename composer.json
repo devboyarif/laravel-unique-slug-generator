@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Arif\\LaravelSlugGenerator\\": "src/"
+            "Devboyarif\\LaravelSlugGenerator\\": "src/"
         }
     },
     "authors": [
@@ -22,10 +22,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Arif\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+                "Devboyarif\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
             ],
             "aliases": {
-                "UniqueSlug": "Arif\\LaravelUniqueSlug\\UniqueSlug"
+                "UniqueSlug": "Devboyarif\\LaravelUniqueSlug\\UniqueSlug"
             }
         }
     }

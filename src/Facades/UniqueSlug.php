@@ -1,11 +1,11 @@
 <?php
 
-namespace Arif\LaravelUniqueSlug\Facades;
+namespace Devboyarif\LaravelUniqueSlug\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Arif\LaravelUniqueSlug\UniqueSlug
+ * @see \Devboyarif\LaravelUniqueSlug\UniqueSlug
  */
 class UniqueSlug extends Facade
 {
