@@ -7,7 +7,7 @@ A simple unique slug generator for the Laravel applications
 ## Installation
 
 ```sh
-composer require arif/laravel-unique-slug
+composer require devboyarif/laravel-unique-slug
 ```
 
 ## Configuration
