@@ -1,7 +1,6 @@
 {
     "name": "devboyarif/laravel-unique-slug",
     "description": "A simple unique slug generator for the Laravel applications",
-    "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -11,12 +10,14 @@
     "authors": [
         {
             "name": "Ariful Islam Arif",
-            "email": "devboyarif@gmail.com"
+            "email": "devboyarif@gmail.com",
+            "homepage": "https://devarif.co",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.4"
+        "php" : "^7.3|^8.0|^8.1"
     },
     "extra": {
         "laravel": {
